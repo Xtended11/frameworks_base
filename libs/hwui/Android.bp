@@ -117,6 +117,7 @@ cc_defaults {
     name: "hwui_compile_for_perf",
     cflags: [
         "-fno-omit-frame-pointer",
+        "-O3",
     ],
 
     arch: {
